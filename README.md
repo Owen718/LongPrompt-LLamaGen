@@ -20,7 +20,7 @@ LongPrompt-LLamaGen is a improved LLamaGen modell that combines long-text prompt
 
 - **High-Quality Training Data**: Fine-tuned on 500,000 high-quality images
 - **Long Text Understanding**: Each image accompanied by 300+ token prompts
-- **Intelligent Prompt Optimization**: Built-in prompt refining for enhanced output quality
+- **Intelligent Prompt Optimization**: Built-in prompt refining with Complex Human Instructionfor enhanced output quality
 - **Continuous Updates**: Our team constantly optimizes the model to stay ahead of the curve
 
 
