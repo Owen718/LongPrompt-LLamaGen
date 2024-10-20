@@ -6,7 +6,7 @@ python3 sample_t2i.py \
     --gpt-model GPT-XL \
     --image-size 512 \
     --cfg-scale 7.5 \
-    --top-k 4000 \
+    --top-k 10000 \
     --temperature 1.2 \
     --top-p 1 \
     --t5-feature-max-len 300 \

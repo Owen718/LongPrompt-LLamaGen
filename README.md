@@ -1,6 +1,6 @@
 # 🚀 LongPrompt-LLamaGen
 
-![./sample_0135000_T1.2.png](./sample_0135000_T1.2.png)
+![./sample_0135000_model_only_T1.2_2.png](./sample_0135000_model_only_T1.2_2.png)
 
 
 <p align="center">

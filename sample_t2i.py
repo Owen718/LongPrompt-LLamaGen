@@ -1,5 +1,5 @@
 import os
-# os.environ['CUDA_VISIBLE_DEVICES'] = '7'
+os.environ['CUDA_VISIBLE_DEVICES'] = '7'
 
 import torch
 torch.backends.cuda.matmul.allow_tf32 = True
@@ -89,8 +89,7 @@ def main(args):
         "a big purple bus parked in a parking spot",
         "A furry, black bear standing in a rocky, weedy, area in the wild.",
         "a baby penguin.",
-        "a chimpanzee",
-        "red apples on a tree with green leaves"
+        "red apples on a tree with green leaves",
         "a corgi head depicted as an explosion of a nebula",
         "a gorilla climbing up the side of the Great Pyramid"
     ]    
