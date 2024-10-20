@@ -14,7 +14,7 @@
 
 ## 🌟 Introduction
 
-LongPrompt-LLamaGen is a improved LLamaGen modell that combines long-text prompts with cutting-edge AI technology, providing unprecedented image generation capabilities for creatives and developers.
+LongPrompt-LLamaGen is a improved LLamaGen model that combines long-text prompts with cutting-edge AI technology, providing unprecedented image generation capabilities for creatives and developers.
 
 ### 🔥 Key Features
 
