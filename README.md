@@ -24,11 +24,12 @@ LongPrompt-LLamaGen is a improved LLamaGen modell that combines long-text prompt
 - **Continuous Updates**: Our team constantly optimizes the model to stay ahead of the curve
 
 ## 🚀 How to Use 
-'''python
+
+```bash
 1. Install the required packages following the instructions in the original LlamaGen repository.
 2. Download the pre-trained model from [HuggingFace Link](https://huggingface.co/Owen777/LongPrompt-LLamaGen), the model size is about 3.11G.
 3. Use the model to generate images by following the example code provided in the repository.
-'''
+```
 
 
 
