@@ -27,8 +27,21 @@ LongPrompt-LLamaGen is a improved LLamaGen modell that combines long-text prompt
 
 ## 🚀 How to Use 
 1. Install the required packages following the instructions in the original LlamaGen repository.
-2. Download the pre-trained model from [HuggingFace Link](https://huggingface.co/Owen777/LongPrompt-LLamaGen/blob/main/0135000_model_only.pt), the model size is about 3.11G.
-3. Use the model to generate images by following the example code provided in the repository.
+2. Download our pre-trained model from [HuggingFace Link](https://huggingface.co/Owen777/LongPrompt-LLamaGen/blob/main/0135000_model_only.pt), the model size is about 3.11G.
+And install&download Language models for text-conditional image generation:
+```
+pip install ftfy
+pip install transformers
+pip install accelerate
+pip install sentencepiece
+pip install pandas
+pip install bs4
+```
+Download flan-t5-xl models from [flan-t5-xl](https://huggingface.co/google/flan-t5-xl) and put into the folder of `./pretrained_models/t5-ckpt/`
+Download vq-ds16-t2i models from [vq-ds16-t2i](https://huggingface.co/peizesun/llamagen_t2i/resolve/main/vq_ds16_t2i.pt) and put into the folder of `./pretrained_models/vq-ckpt/`
+
+3. Modify `sample_t2i.py` to specify the paths of the pre-trained model, t5-ckpt, and vq-ckpt.
+4. Use the model to generate images by following the example code provided in the repository.
 
 ## ⚠️ Important Note
 

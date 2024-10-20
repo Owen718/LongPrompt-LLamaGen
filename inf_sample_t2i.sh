@@ -1,0 +1,14 @@
+python3 sample_t2i.py \
+    --t5-path /home/yetian/Project/LlamaGen/pretrained_models/t5-ckpt \
+    --vq-ckpt /home/yetian/Project/LlamaGen/pretrained_models/vq_ds16_t2i.pt \
+    --gpt-ckpt /home/yetian/Project/LlamaGen/results/004-GPT-XL/checkpoints/0135000_model_only.pt \
+    --compile \
+    --gpt-model GPT-XL \
+    --image-size 512 \
+    --cfg-scale 7.5 \
+    --top-k 4000 \
+    --temperature 1.2 \
+    --top-p 1 \
+    --t5-feature-max-len 300 \
+    --cls-token-num 300 \
+    --using-complex-prompt
