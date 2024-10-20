@@ -42,6 +42,7 @@ Download vq-ds16-t2i models from [vq-ds16-t2i](https://huggingface.co/peizesun/l
 
 3. Modify `sample_t2i.py` to specify the paths of the pre-trained model, t5-ckpt, and vq-ckpt.
 4. Use the model to generate images by following the example code provided in the repository.
+5. For Complex Human Instruction, please install [Ollama](https://ollama.com), our Complex Human Instruction using ollama as backend, and automatically load&using model.
 
 ## ⚠️ Important Note
 
